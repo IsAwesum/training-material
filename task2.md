@@ -20,24 +20,30 @@
  In order to setup a Discord bot, [import the JDA library via Maven](https://github.com/DV8FromTheWorld/JDA#download).
  
  ## 4.1 Basics
- For the next tasks you will need to use the JDA documentation. It contains various examples you must adapt in your own code.
+ For the next tasks you will need to use the JDA documentation. It contains various examples you must adapt in your own code. You should create a Main class with a main method.
  
- ### 4.1.1 Connection
- Configure the bot so that when you start up your application your bot shows up as "Online" in your test server in your server
+ ### 4.1.1 Token from program arguments
+ In order to create a bot using JDA you need to pass the token generated earlier as the first parameter. 
+ However, you should not store the token within your code. Can you think why?
  
- ### 4.1.2 Status
+ Instead, we need to use program arguments. [Set the program argument in IntelliJ](https://www.youtube.com/watch?v=kAAbdoq1to8) to contain your token.
+ 
+ ### 4.1.2 Connection
+ Configure the bot so that when you start up your application your bot shows up as "Online" in your test server.
+ 
+ ### 4.1.3 Status
  Configure the bot so that the status of the bot shows up as "Hanz Dirtyson!"
  
- ### 4.1.3 Commands
+ ### 4.1.4 Commands
  
- #### 4.1.3.1 Hanz command
+ #### 4.1.4.1 Hanz command
  Make the bot respond when a user sends a "!hanz" command. 
  The bot should respond with "Kanch".
  
- #### 4.1.3.1 Time command 
+ #### 4.1.4.1 Time command 
  Make the bot respond when a user sends a "!time command. 
  The bot should respond with the current time.
  
- ### 4.1.4 Private mesage
+ ### 4.1.5 Private mesage
  Make the bot respond when a user sends a private message.
  The bot should respond with "Hello *username here*, you sent me *message content here*".
