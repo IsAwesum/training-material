@@ -60,7 +60,7 @@ One of these code generation utilities provided by Lombok is automatic generatio
 Add [these annotations](https://kodejava.org/how-do-i-generate-getters-and-setters-with-lombok/) to your classes.
 
 
-## UniRest REST client
+## Unirest REST client
 The API provided by OpenWeatherMap is known as a REST API. 
 
 A REST API has certain characteristics:
@@ -69,11 +69,12 @@ A REST API has certain characteristics:
 
 To communicate with a REST API in Java we need to use a REST client. Your browser is technically a REST client and is cabable of sending GET, POST, PUT requests to an endpoint.
 
-## Unirest dependency
+### Unirest dependency
 Add the [Unirest dependency](http://kong.github.io/unirest-java/) to your project
 
-## Constructing a request with UniRest
+### Constructing a request with Unirest
 We will be using a technique called mapping to convert JSON at the endpoint to an Object. A good example of the mapping functionality provided by 
 Unirest [can be found in the docs](http://kong.github.io/unirest-java/#responses)
 
-Create a GET request to your endpoint using UniRest and put the code into a `main` method. You can then debug that piece of code to see if the mapping has worked correctly. 
+Create a GET request to your endpoint using Unirest and put the code into a `main` method. You can then debug that piece of code to see if the mapping has worked correctly. 
+
